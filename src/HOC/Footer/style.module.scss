@@ -1,0 +1,123 @@
+.Footer{
+    background: #f5f5f5;
+    padding: 100px ;
+    width: 100%;
+
+    .header{
+        display: flex;
+        margin-bottom: 50px;
+        img{
+            margin-right: 50px ;
+        }
+    }
+    .socialBtn{
+        border-radius: 50%;
+        border: 1px solid #7d7d7d;
+        padding: 10px;
+        color: #7d7d7d;
+        width: 40px;
+        height: 40px;
+        align-items: center;
+        text-align: center;
+        margin-right: 16px;
+    }
+}
+.Maintext{
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+    margin-top: 16px;
+    h4{
+        color: #BCBCBC;
+        font-size: 16px;
+        line-height: 22px;
+        font-style: normal;
+        font-weight: 400;
+    }
+    p{
+        color: #333;
+    }
+    a{
+        color: #333;
+        text-decoration: none;
+    }
+}
+.orgInfo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.textend{
+    margin-top: 70px;
+    color: #7d7d7d;
+}
+
+.blockTwo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+}
+.textnav{
+    display: flex;
+    flex-direction: column;
+    h4{
+        color: #333;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 24px;
+    }
+    a{
+        color: #333;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 16px;
+        margin-bottom: 16px;
+    }
+}
+.last{
+    h4{
+        visibility: hidden;
+    }
+}
+.blockThree{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    button{
+        width: 150px;
+        height: 150px;
+        border: 1px solid #F64F00;
+        background: none;
+        color: #F64F00;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        border-radius: 50%;
+        transition: all .5s;
+    }
+    button:hover{
+        background: #F64F00;
+        color: #f5f5f5;
+    }
+    .develop{
+        color: #333;
+        font-size: 18px;
+        text-align: center;
+        border: 1px solid #333;
+        border-radius: 10px;
+        padding: 5px;
+
+    }
+    a{
+        text-decoration: none;
+        color: #333;
+    }
+}
+.develop:hover{
+    background: #333;
+    transition: all .5s;
+    a,p{
+        color: #F64F00;
+    }
+}

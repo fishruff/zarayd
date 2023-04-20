@@ -1,0 +1,84 @@
+.MainBlock{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    max-height: 100%;
+    img{
+        margin: auto;
+    }
+}
+.Zaryad{
+    width: 800px;
+}
+.bgEffect{
+    display: flex;
+    margin: auto;
+    
+    :first-child{
+        width: 600px;
+        height: 600px;
+        border-radius: 50%;
+        background: radial-gradient(50% 50% at 50% 50%, #F64F00 0%, rgba(246, 79, 0, 0) 100%);
+        filter: blur(32px);
+    }
+    :last-child{
+        width: 800px;
+        height: 700px;
+        border-radius: 50%;
+        background: radial-gradient(50% 50% at 50% 50%, #0178F3 0%, rgba(1, 120, 243, 0) 100%);       
+        filter: blur(32px);
+        margin-top: -100px;
+    }
+
+}
+
+.Slider{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    .CircleBtn{
+        z-index: 100;
+        position: absolute;
+        right: -5%;
+        top: -10%;
+        width: 100px;
+        height: 100px;
+        background: #fff;
+        border-radius:50% ;
+        color: #333;
+        align-items: center;
+        text-align: center;
+        transform: rotate(15deg);
+        display: flex;
+        padding: 12px;
+    }
+
+    img{
+        border-radius: 100px 0 100px 0;
+        width: 800px;
+        height: 500px;
+    }
+}
+.desk{
+    position: absolute;
+    color: #F5F5F5;
+    top: 5%;
+    right: 5%;
+    width: 200px;
+    
+
+    :first-child{
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 120%;
+        margin-bottom: 10px;
+    }
+    :last-child{
+        width: 150px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
