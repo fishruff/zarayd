@@ -1,6 +1,8 @@
 import style from './style.module.scss';
 import cn from 'classnames';
 import Photo from '../../source/itemPhoto.png'
+import {MdKeyboardArrowRight} from 'react-icons/md'
+import {TbBrandGoogleAnalytics} from 'react-icons/tb'
 
 function Card() {
   return (
@@ -9,11 +11,11 @@ function Card() {
             <p>Хоккейная клюшка Заряд Т100</p>
             <p className={cn(style.Price)}>14 690 ₽</p>
             <div className={cn(style.btn)}>
-                <button>a</button>
+                <button><TbBrandGoogleAnalytics/></button>
                 <button>
                 <div className={cn(style.moreBtn)}>
                     <p>Подробнее</p>
-                    <p>b</p>
+                    <p><MdKeyboardArrowRight/></p>
                 </div>
                 </button>
             </div>

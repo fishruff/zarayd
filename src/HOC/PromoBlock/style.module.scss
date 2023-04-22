@@ -35,7 +35,6 @@
         border-radius: 50%;
         background: radial-gradient(50% 50% at 50% 50%, #F64F00 0%, rgba(246, 79, 0, 0) 100%);
         filter: blur(32px);
-        // margin: ;
     }
     :last-child{
         width: 600px;
@@ -109,6 +108,7 @@
         font-weight: 400;
         font-size: 18px;
         line-height: 24px;
+        margin: 16px 0 40px;
     }
     button{
         width: 150px;
@@ -135,15 +135,18 @@
         font-weight: 600;
         font-size: 24px;
         line-height: 120%;
-        color: #333;    
+        color: #333;  
+
     }
     p{
         color: #7D7D7D;
         font-weight: 400;
         font-size: 16px;
         line-height: 22px;
+        margin: 16px 0 40px;
     }
     img{
         border-radius: 60px 0;
+        margin-bottom: 50px;
     }
 }
