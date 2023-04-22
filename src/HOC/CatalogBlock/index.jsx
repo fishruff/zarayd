@@ -18,8 +18,6 @@ function CatalogBlock() {
                     <Card/>
                     <Card/>
                     <Card/>
-                    <Card/>
-                    <Card/>
                 </div>
             <div className={cn(style.stripes)}>
                 <div className={cn(style.marquee)}>
